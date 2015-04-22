@@ -1,0 +1,5 @@
+#/bin/bash
+export PATH=$PYTHON2_7:$PATH
+kivy $@
+
+

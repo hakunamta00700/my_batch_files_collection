@@ -1,0 +1,4 @@
+#/bin/sh
+
+python ~/util/pyinstaller-2.0/pyinstaller.py $@
+

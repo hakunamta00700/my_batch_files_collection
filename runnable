@@ -1,0 +1,4 @@
+#/bin/sh
+
+python /Users/david/batch/runnable.py "$@"
+

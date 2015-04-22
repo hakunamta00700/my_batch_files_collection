@@ -1,0 +1,5 @@
+#!/bin/bash
+curl -u 'hakunamta00700' https://api.github.com/user/repos -d "{\"name\":\"$1\"}";
+git init;
+git remote add origin git@github.com:hakunamta00700/$1.git;
+

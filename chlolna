@@ -1,0 +1,6 @@
+#/bin/bash
+deployDir= "/Applications/League of Legends.app/Contents/LOL/RADS/projects/lol_air_client_config_na/releases/0.0.0.44/deploy"
+
+mv $deployDir/lol.properties $deployDir/lol.properties.temp
+mv $deployDir/lol.properties.old $deployDir/lol.properties
+mv #deployDir/lol.properties.temp $deployDir/lol.properties.old

@@ -1,0 +1,27 @@
+#/bin/bash
+utility_title="프로젝트의 README 파일을 쉽게 만드는 스크립트"
+make_readme(){
+echo -n "Enter Project Summery:"
+read text
+echo "#$text" > README.md
+echo "$text - $(pwd)" >> ~/workspace-/summery/project_summery_list.txt
+}
+show_title(){
+ echo $utility_title
+}
+
+
+option=$1
+if [ -z "$option" ];then
+    make_readme
+elif [ "$option" == "-h"];then
+    show_title
+else
+    echo "wrong "
+fi
+
+    
+
+    
+
+ 

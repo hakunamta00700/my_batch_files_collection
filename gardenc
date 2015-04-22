@@ -1,0 +1,4 @@
+#/bin/bash
+kivyc /Applications/Kivy.app/Contents/Resources/kivy/kivy/garden.py $@
+
+

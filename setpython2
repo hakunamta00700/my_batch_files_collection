@@ -1,0 +1,4 @@
+rm /usr/local/bin/python
+ln -s /Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 /usr/local/bin/python
+
+export PATH=${PYTHON2_7}:${ADDITIONAL_PATH}:${DEFAULT_PATH}

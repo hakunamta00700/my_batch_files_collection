@@ -1,0 +1,8 @@
+#/bin/bash
+appName=$1
+ionic start $appName sidemenu
+cd $appName
+ionic hooks add
+ionic platform add android
+ionic build android
+

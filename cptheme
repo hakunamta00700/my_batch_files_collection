@@ -1,0 +1,4 @@
+#/bin/sh
+mv ~/Downloads/*.tmTheme /Users/david/Library/Application\ Support/Sublime\ Text\ 3/Packages/Colorsublime-Themes
+
+

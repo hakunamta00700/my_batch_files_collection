@@ -1,0 +1,6 @@
+rm /usr/local/bin/python
+ln -s /Library/Frameworks/Python.framework/Versions/3.4/bin/python3.4 /usr/local/bin/python
+
+PATH=${PYTHON3_4}:${ADDITIONAL_PATH}:${DEFAULT_PATH}
+
+

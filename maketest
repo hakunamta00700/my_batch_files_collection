@@ -1,0 +1,4 @@
+#/bin/sh
+cd ~/workspace/TestCodeForPython/
+vi $1
+

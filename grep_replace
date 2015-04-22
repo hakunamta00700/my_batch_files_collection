@@ -1,0 +1,7 @@
+#/bin/bash
+searchtext=$1
+matchtext=$2
+replacetext=$3
+echo "------->",$searchtext,$matchtext,$replacetext
+grep -r -l ${searchtext} . | sort | uniq | xargs perl -e "s/${matchtext}/${replacetext}/" -pi
+
